@@ -1,47 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        /* body{
-            background-image: url('Captain America 4k.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-        } */
-        table,th,td{
-            border:1px solid black;
-            border-collapse: collapse;
-        }
-        th, td {
-  background-color: #96D4D4;
-}
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://www.dafont.com/safira-march.font" rel="preload" as="font">
 </head>
-<body>
-    <img src="Captain America 4k.jpg" alt="Captain America 4k" usemap="#captain">
-    <map name = "captain">
-        <area shape = "rect" coords="344,44,270,350" alt = "Captain America" href = "https://en.wikipedia.org/wiki/Captain_America">
-    </map>
-<table style="width:100%">
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-</table>
+<body style="font-family: Arial, sans-serif;">
+  <section class="nav-section">
+    <div  class = "nav-container">
+      <h1 style="padding:0px 50px 0px 100px;color:white">My Portfolio</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+    </div>
+  </section>
+  <section id="Home">
+    <div class="home-container">
+    <div class="intro" style="padding-left: 80px; max-width: 600px;">
+    <h1 style="color:#ffbf00;padding-bottom: 15px;">Hi THERE!</h1>
+    <h1 style="font-family:Fogie;padding-bottom: 15px;">I'm Eve</h1>
+    <h2 style="background-color: rgb(195, 217, 225);padding:10px;background-attachment: scroll;border-radius: 15px;">Full Stack Developer | AI Automation</h2><br>
+    <h2 style="background-color:rgb(229, 230, 208);padding-left:10px;border-radius: 15px">Ready for new challenges and opportunities</h2>
+    <p style ="padding: 15px 0px 30px 0px;">I’m a passionate Full Stack Developer focused on building modern, responsive, and high-performance web applications. 
+      I specialize in creating seamless user experiences using frontend technologies like HTML, CSS, JavaScript, and React, 
+      while also developing powerful backend systems with Node.js, Express, and MongoDB.I aim to develop innovative solutions that deliver both 
+      performance and real-world impact.</p>
+    <button class="btn" onclick="window.location.href='#About'">More About Me</button></div>
+    <img src="WhatsApp Image 2026-05-20 at 12.39.06 PM.jpeg" alt="Profile Image">
+    </div>
+  </section>
+  <section id="About">
+    <div class="about-container">
+      <div class="side-bar" style="background-color: saddlebrown;">
 
+        <img class="image-side" src="WhatsApp Image 2026-05-20 at 12.39.06 PM.jpeg" alt="Profile Image">
+        <ul class = "side-links" style="background-color: sandybrown;">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    <div class="about-me-container" style =" padding: 30px 80px 80px 80px;">
+        <h1 style = "font-size: 70px;padding-bottom:10px">ABOUT ME</h1>
+        <p style="font-size: 30px;padding-bottom:20px">I'm <b>Eve</b>, a full stack developer/ AI Automation enthusiast</p>
+        <p style="padding-right:200px;padding-bottom:40px">With a strong foundation in both frontend and backend development, I have a passion for creating seamless user experiences and building powerful web applications. 
+          I specialize in technologies such as HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. 
+          My goal is to develop innovative solutions that not only deliver high performance but also make a real-world impact. 
+          I am always eager to take on new challenges and opportunities to further enhance my skills and contribute to exciting projects.</p>
+          <div class ="exposure">
+            <div class="skills">
+              <h1>What do I do?</h1>
+              <h3>Full Stack Developer</h3>
+                <p>I specialize in creating seamless user experiences using frontend technologies like HTML, CSS, JavaScript, and React, while also developing powerful backend systems with Node.js, Express, and MongoDB.
+                    I aim to develop innovative solutions that deliver both performance and real-world impact.
+                </p>
+              <h3>AI Automation Engineer</h3>
+                <p>I am passionate about leveraging AI to automate tasks and processes, enhancing efficiency and productivity. 
+                    I have experience in developing AI-driven solutions that can streamline workflows, reduce manual effort, and provide valuable insights through data analysis. 
+                    My goal is to create intelligent systems that can adapt and learn, ultimately driving innovation and improving outcomes across various domains.
+                </p>
+            </div>
+            <div class = "Fun Facts">
+              <h1>Fun Facts</h1>
+
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>

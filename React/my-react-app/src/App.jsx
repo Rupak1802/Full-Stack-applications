@@ -11,7 +11,7 @@ function App() {
       <h1>Hello, World!</h1>
       <ol>
         {names.map(name => <li key={name.id}>{name.name} and my id is {name.id}</li>)}
-      </ol>    
+      </ol>
     </div>
   )
 }
